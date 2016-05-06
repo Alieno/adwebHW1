@@ -1,4 +1,5 @@
 主要完成了一个简易的用户注册登录系统。
+
 AngularJS
 	1. 路由
 		1.1. 载入了实现路由的 js 文件：angular-route.js。
@@ -22,13 +23,13 @@ AngularJS
                 });
             });
     
-    2. 输入验证
-    	2.1. 使用ng-show指令，如：ng-show="myForm.email.$error.email"验证邮箱地址是否合法。
-    	2.2. 分别验证了表单必须项是否填写，邮箱地址是否合法，两次输入密码是否相符。
+    	2. 输入验证
+		2.1. 使用ng-show指令，如：ng-show="myForm.email.$error.email"验证邮箱地址是否合法。
+		2.2. 分别验证了表单必须项是否填写，邮箱地址是否合法，两次输入密码是否相符。
 
-    3. 动画
-    	3.1. 引入 angular-animate.min.js 库。
-    	3.2. 包含了 ngAnimate 模块作为主应用模块的依赖模块。
+    	3. 动画
+		3.1. 引入 angular-animate.min.js 库。
+		3.2. 包含了 ngAnimate 模块作为主应用模块的依赖模块。
 			var ngRouteExample = angular.module('ngRouteExample', ['ngRoute', 'myController', 'ngAnimate']);
 		3.3. css中设置动画
 			@keyframes slideRight {
