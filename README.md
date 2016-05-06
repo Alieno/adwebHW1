@@ -50,7 +50,13 @@ AngularJS
 		3.4. 实现切换登录和注册界面的动画效果。
 
 Node.js
+
+
+
 	terminal输入node serverN.js启动服务器，浏览器键入localhost:8081/index.html
+	
+	
+	
 	1. Express 框架
 		1.1. 安装 Express 并将其保存到依赖列表中
 			npm install express
